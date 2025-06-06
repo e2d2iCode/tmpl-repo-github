@@ -75,11 +75,11 @@ The step below finalizes the release's changelog. It should be the last commit o
 
 ### Added
 
-- ...
+- Moved project's `CHANGELOG` from root level to [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
 
 ### Changed
 
-- ...
+- [`CHANGELOG.md`](CHANGELOG.md) to a template for the project using this template
 
 ### Deprecated
 
@@ -87,7 +87,7 @@ The step below finalizes the release's changelog. It should be the last commit o
 
 ### Removed
 
-- ...
+- Moved project's `CHANGELOG` from root level to [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
 
 ### Fixed
 
