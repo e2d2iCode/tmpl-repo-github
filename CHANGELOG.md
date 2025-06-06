@@ -70,7 +70,7 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
-## [Unreleased](https://github.com/e2d2iCode/tmpl-repo-github/compare/...HEAD)
+## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
 
 ### Added
 
