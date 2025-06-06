@@ -71,40 +71,22 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
-## [Unreleased](https://github.com/<username>/<repository>/compare/...HEAD)
-
-### Added
-
-- Moved project's `CHANGELOG` from root level to [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
-
-### Changed
-
-- [`CHANGELOG.md`](CHANGELOG.md) to a template for the project using this template
-
-### Deprecated
-
-- ...
-
-### Removed
-
-- Moved project's `CHANGELOG` from root level to [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
+## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
 
 ### Fixed
 
-- ...
-
-### Security
-
-- ...
+- Fixed links in the `README` file
 
 ---
 
-## [Seed](https://github.com/<username>/<repository>/compare/v0.0.1)&nbsp;-&nbsp; <yyyy-mm-dd>
-
-Seeded from [tmpl-repo-nodejs](https://github.com/e2d2iCode/tmpl-repo-nodejs), which provides:
+## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
 
 ### Added
 
+- Standard Seeding Files:
+  - [`README](readme.md) was updated to reflect the added material.
+  - [`LICENSE](LICENSE.md) was added placeholders for date and name.
+  - [`.gitignore`](.gitignore) was updated to reflect the added material.
 - Folder hierarchy's documentation: `.fs-info` files
 - Changelog tracking: [`/CHANGELOG.md`](CHANGELOG.md)
 - Editor's configuration': [`.vscode/`](.vscode/.fs-info)
@@ -122,9 +104,3 @@ Seeded from [tmpl-repo-nodejs](https://github.com/e2d2iCode/tmpl-repo-nodejs), w
   - [Greetings action](.github/gretteings.yml),
   - [Dependabot configuration](.github/dependabot.yml),
   - [Copilot instructions and prompts](.github/copilot/.fs-info)
-
-### Changed
-
-- [`README](readme.md) was updated to reflect the added material.
-- [`LICENSE](LICENSE.md) was added placeholders for date and name.
-- [`.gitignore`](.gitignore) was updated to reflect the added material.
