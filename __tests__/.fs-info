@@ -1,0 +1,83 @@
+<!-- ./__tests__/.fs-info -->
+# FS-INFO - Tests Folder
+
+!!!Note
+    This file provides an overview of the folder's role and **typical** content. If available, project-specific test documentation is to be found in the folder's `README`.
+
+## Overview
+
+The `__tests__/` folder is dedicated to the automated testing of the project. It serves as a centralized location for all test suites, test utilities, fixtures, and mocks that verify the correctness and reliability of the project's codebase. This folder is typically recognized by most JavaScript/TypeScript test runners (such as Jest, Mocha, etc.) as the default location for test files.
+
+By maintaining comprehensive and well-organized tests in this folder, the project ensures that code changes can be validated quickly, regressions are caught early, and contributors can confidently refactor or extend the codebase.
+
+## Folder's Role
+
+The `__tests__/` folder plays a crucial role in:
+
+- Housing unit, integration, and end-to-end tests
+- Providing test utilities, fixtures, and mocks
+- Organizing tests to mirror the project's source code structure
+- Supporting continuous integration and automated quality checks
+
+This folder is intended to be the go-to resource for anyone seeking to run, review, or contribute to the project's tests.
+
+## Typical Content
+
+Test files are typically named with a `.test.js`, `.spec.ts`, or similar suffix, and are organized to reflect the structure of the source code they test. The folder may also contain subfolders for grouping related tests, as well as files for shared test setup and configuration.
+
+### Typical Tree Structure
+
+```text
+__tests__/
+├── unit/                # Unit tests for individual modules
+│   ├── foo.test.js
+│   └── ...
+│
+├── integration/         # Integration tests for combined components
+│   ├── bar.spec.ts
+│   └── ...
+│
+├── fixtures/            # Static data used in tests
+│   └── ...
+│
+├── mocks/               # Mock implementations for dependencies
+│   └── ...
+│
+├── setup.js             # Global test setup (if needed)
+├── utils.js             # Test utility functions
+└── ...                  # Additional test files or folders
+```
+
+The following sections provide a comprehensive overview of the files and subfolders within the `__tests__/` directory.
+
+### Files Description
+
+#### \*.test.js / \*.spec.ts
+
+  Individual test files containing test cases for specific modules or features.
+
+#### setup.js
+
+  Optional file for configuring the test environment before tests run (e.g., global mocks, environment variables).
+
+#### utils.js
+
+  Utility functions shared across multiple test files.
+
+### Subfolders Description
+
+#### unit/
+
+Contains unit tests that verify the behavior of individual functions, classes, or modules in isolation.
+
+#### integration/
+
+Contains integration tests that verify the interaction between multiple components or modules.
+
+#### fixtures/
+
+Holds static data, such as JSON files or sample inputs, used to drive tests.
+
+#### mocks/
+
+Contains mock implementations or stubs for external dependencies, services, or APIs used during testing.
