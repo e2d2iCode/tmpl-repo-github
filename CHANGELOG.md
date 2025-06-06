@@ -70,7 +70,7 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
-## [UNRELEASED](https://github.com/<user>/<repo>/compare/...HEAD)
+## [Unreleased](https://github.com/<user>/<repo>/compare/...HEAD)
 
 ### Added
 
