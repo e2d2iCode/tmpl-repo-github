@@ -9,6 +9,28 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
 
+# Explicitly declare text files
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.json   text
+*.md     text
+*.yml    text
+*.yaml   text
+*.sh     text eol=lf
+*.bat    text eol=crlf
+
+# Treat all files in assets as binary
+/assets/** binary
+
+# Mark lock files as text
+package-lock.json text
+yarn.lock text
+
+# Exclude node_modules from linguist stats
+node_modules/** linguist-vendored
+
 # diff=pdf requires xpdf installed
 *.pdf     -text diff=pdf
 # use diff=astextplain if not available
