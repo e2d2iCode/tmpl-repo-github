@@ -61,6 +61,8 @@ The following sections provide a comprehensive overview of the files and subfold
 
 ### Files Description
 
+This section provides a detailed explanation of each file within the root folder. It outlines their purpose, key responsibilities, and how they contribute to the overall functionality of the project.
+
 #### index.html
 
   The main entry point for the documentation website. It typically provides an overview of the project and links to other documentation sections.
@@ -70,6 +72,8 @@ The following sections provide a comprehensive overview of the files and subfold
   A manifest file that defines how the documentation site appears when installed on a device or added to a home screen, including icons and theme colors.
 
 ### Subfolders Description
+
+This section provides a quick explanation of each folder within the root directory. Detailed information is provided in their dedicated `.fs-info` files, if available.
 
 #### assets/
 
