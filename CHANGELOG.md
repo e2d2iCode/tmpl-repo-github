@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD024 -->
-<!-- markdownlint-disable MD033 -->
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -15,9 +14,9 @@ ___  TEMPLATE     ______________________________________________________________
 
 SECTIONS
 ´´´´´´´´´´
-## [Unreleased](https://github.com/<username>/<repository>/compare/...HEAD)
-## [<vers>](https://github.com/<username>/<repository>/releases/tag/<the-tag>) &nbsp;-&nbsp; <yyy-mm-dd>
-## [<vers>](https://github.com/<username>/<repository>/compare/<to-that>...<this>) &nbsp;-&nbsp; <yyy-mm-dd>
+## [Unreleased](https://github.com/<user>/<repo>/compare/...HEAD)
+## [<vers>](https://github.com/<user>/<repo>/releases/tag/<the-tag>) &nbsp;-&nbsp; <yyy-mm-dd>
+## [<vers>](https://github.com/<user>/<repo>/compare/<to-that>...<this>) &nbsp;-&nbsp; <yyy-mm-dd>
 
 ### Added
 
@@ -48,7 +47,7 @@ SECTIONS
 MILESTONES
 ´´´´´´´´´
 
-**[d<X.Y>-<label>-<Z>](https://github.com/<username>/<repository>/compare/d<X.Y>-<label>-<N>...<base-tag>**
+**[d<X.Y>-<label>-<Z>](https://github.com/<user>/<repo>/compare/d<X.Y>-<label>-<N>...<base-tag>**
 
 -->
 <!--
@@ -71,15 +70,37 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
-## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
+## [UNRELEASED](https://github.com/<user>/<repo>/compare/...HEAD)
+
+### Added
+
+- ...
+
+### Changed
+
+- ...
+
+### Deprecated
+
+- ...
+
+### Removed
+
+- ...
 
 ### Fixed
 
-- Fixed links in the `README` file
+- ...
+
+### Security
+
+- ...
 
 ---
 
-## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
+## [Seed](https://github.com/<user>/<repo>/releases/tag/v0.0.1) &nbsp;-&nbsp; 2025-06-06
+
+Seeded from [tmpl-repo-nodejs](https://github.com/<user>/<repo>), which provides:
 
 ### Added
 
