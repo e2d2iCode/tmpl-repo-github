@@ -71,37 +71,15 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
-## [Unreleased](https://github.com/<username>/<repository>/compare/...HEAD)
-
-### Added
-
-- ...
-
-### Changed
-
-- ...
-
-### Deprecated
-
-- ...
-
-### Removed
-
-- ...
+## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
 
 ### Fixed
 
-- ...
-
-### Security
-
-- ...
+- Fixed links in the `README` file
 
 ---
 
-## [Seed](https://github.com/e2d2iCode/tmpl-repo-github/releases/tag/v0.0.1) &nbsp;-&nbsp; 2025-06-06
-
-Seeded from [tmpl-repo-nodejs](https://github.com/e2d2iCode/tmpl-repo-nodejs), which provides:
+## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
 
 ### Added
 
