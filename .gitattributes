@@ -9,12 +9,13 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
 
-# Attributes requiring external tools
-*.pdf     -text diff=pdf  # diff=pdf  requires xpdf installed
-*.PDF     -text diff=pdf  #           use diff=astextplain if not available
-*.gif     -text diff=exif # diff=exif requires exiftool installed
-*.jpeg    -text diff=exif #           set to `binary` if not available
-*.jpeg    -text diff=exif
+# diff=pdf requires xpdf installed
+*.pdf     -text diff=pdf
+# use diff=astextplain if not available
+*.PDF     -text diff=pdf
+# diff=exif requires exiftool installed
+*.gif     -text diff=exif
+# set to `binary` if not available
 *.jpeg    -text diff=exif
 *.png     -text diff=exif
 *.tif     -text diff=exif
@@ -39,32 +40,31 @@
 
 # RTF / DOC
 *.doc     -text diff=astextplain
-*.DOC	    -text diff=astextplain
-*.DOCX    -text diff=astextplain
+*.DOC     -text diff=astextplain
 *.DOCX    -text diff=astextplain
 *.dot     -text diff=astextplain
 *.DOT     -text diff=astextplain
 .gdoc     -text diff=astextplain
 *.rtf     -text diff=astextplain
-*.RTF	    -text diff=astextplain
+*.RTF     -text diff=astextplain
 
 # Web
-*.css	    text  diff=css
-*.htm	    text  diff=html
-*.html	  text  diff=html
+*.css     text  diff=css
+*.htm     text  diff=html
+*.html    text  diff=html
 *.md      text  diff=markdown
 *.php     text  diff=php
-*.scss	  text  diff=css
+*.scss    text  diff=css
 *.xhtml   text  diff=html
 
 # TeX / LaTeX
 *.bibtex  text  diff=bibtex
-*.cls     textt diff=textopt
+*.cls     text  diff=textopt
 *.tex     text  diff=tex
 *.texi*   text  diff=texinfo
-*.sty     textt diff=textopt
+*.sty     text  diff=textopt
 
-# Programing languages
+# Programming languages
 *.js      text
 *.ts      text
 
