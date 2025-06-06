@@ -70,6 +70,14 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
+## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
+
+### Fixed
+
+- Fixed links in the `README` file
+
+---
+
 ## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
 
 ### Added
