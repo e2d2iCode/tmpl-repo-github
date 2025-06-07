@@ -100,6 +100,12 @@ The step below finalizes the release's changelog. It should be the last commit o
 
 ---
 
+## [v1.0.3](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.1...v1.0.2) - 2025-06-07
+
+### Fixed
+
+- Fixed errors in the readme file
+
 ## [v1.0.2](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.1...v1.0.2) - 2025-06-07
 
 ### Fixed
