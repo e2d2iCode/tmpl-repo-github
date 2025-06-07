@@ -92,7 +92,7 @@ The step below finalizes the release's changelog. It should be the last commit o
 
 ### Fixed
 
-- ...
+- Fixed markdown syntax errors in the root-level `.fs-info` file (hotfix/root-description).
 
 ### Security
 
@@ -100,13 +100,18 @@ The step below finalizes the release's changelog. It should be the last commit o
 
 ---
 
+## [v1.0.2](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.1...v1.0.2) - 2025-06-07
+
+### Fixed
+
+- Fixed markdown syntax errors in the root-level `.fs-info` file (hotfix/root-description).
+- Add missing Seed Version in the current file
+
 ## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
 
 ### Fixed
 
-- Fixed links in the `README` file
-
----
+- Fixed links in the `README` file (hotfix/readme-fixes)
 
 ## [v1.0.0](https://github.com/e2d2iCode/tmpl-repo-github/compare/v0.0.1...v1.0.0)
 
@@ -133,3 +138,14 @@ The step below finalizes the release's changelog. It should be the last commit o
   - [Greetings action](.github/gretteings.yml),
   - [Dependabot configuration](.github/dependabot.yml),
   - [Copilot instructions and prompts](.github/copilot/.fs-info)
+
+---
+
+## [Seed](https://github.com/e2d2iCode/tmpl-repo-github/releases/tag/v0.0.1) &nbsp;-&nbsp; 2025-06-06
+
+### Added
+
+- The standard seeding files:
+  - .gitignore
+  - README.md
+  - LICENSE.md
