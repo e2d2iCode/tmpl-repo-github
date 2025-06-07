@@ -11,8 +11,7 @@
   - [Installation](#installation)
     - [1. On GitHub](#1-on-github)
     - [2. Clone your new repository](#2-clone-your-new-repository)
-    - [2. Update/Customize Files](#2-updatecustomize-files)
-    - [4. Set up platform-specific requirements](#4-set-up-platform-specific-requirements)
+    - [3. Configure/Customize The Template](#3-configurecustomize-the-template)
   - [Features](#features)
     - [Pre-configured Standard Repository Files](#pre-configured-standard-repository-files)
       - [Root Level Files](#root-level-files)
@@ -75,9 +74,9 @@ git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
 ```
 
-### 2. Update/Customize Files
+### 3. Configure/Customize The Template
 
-The following files REQUIRE modifications to reflect your project:
+The exact procedure to configure/customize the template depends on the project's specifics. The following modifications, however, are required regardless of the project:
 
 - [README](README.md): modify the current file's content to describe your own project.
 
@@ -85,18 +84,7 @@ The following files REQUIRE modifications to reflect your project:
 
 - [SECURITY](SECURITY.md): this file contains a link to your repository, which `<username>` and `<repository>` placeholders require to be replaced by your project's specific data.
 
-- [CHANGELOG](CHANGELOG.md): this file contains a link to your repository, which `<username>` and `<repository>` placeholders require to be replaced by your project's specific data.
-
-```sh
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-### 4. Set up platform-specific requirements
-
-- Create configuration files (e.g., `package.json`, `pyproject.toml`, etc.).
-- Update `.env.required` and `.env` and fill in required environment variables.
-- Follow any additional setup steps according to your project's type
+- [CHANGELOG](CHANGELOG.md): Replace the `<user>` and `<repo>` placeholders by your GitHub's Username and the name of your project's repository, respectively. Also, replace the date placeholder, `<yyyy-mm-dd>` of the `[Seed]` section by the current date.
 
 ## Features
 
@@ -118,30 +106,18 @@ This template includes a set of standard repository files to help you maintain b
 #### Root Level Files
 
 - [**`README.md`**](README.md): Project overview, installation, usage, and contribution guidelines.
-  _Update to reflect your project's purpose, setup, and usage instructions._
 - [**`LICENSE.md`**](LICENSE): Default is MIT.
-  _Replace or update if your project uses a different license._
 - [**`CODE_OF_CONDUCT.md`**](CODE_OF_CONDUCT.md): Community standards and expected behavior.
-  _Update contact information or enforcement details as needed._
 - [**`CONTRIBUTING.md`**](CONTRIBUTING.md): Guidelines for contributing to the project.
-  _Customize to match your workflow and requirements._
 - [**`SECURITY.md`**](SECURITY.md): Security policy and vulnerability reporting process.
-  _Update reporting instructions and supported versions._
 - [**`CHANGELOG.md`**](CHANGELOG.md): Track changes, releases, and updates.
-  _Continue to update as your project evolves._
 - [**`.env.required`**](.env.required): Template for required environment variables.
-  _Update to list all environment variables your project needs. THIS FILE GETS COMMITTED._
 - [**`.env`**](.env): Actual environment variable values for local development.
-  _Should not be committed to version control; add to `.gitignore`. THIS FILE IS EXCLUDED FROM BEING COMMITTED (see [`.gitignore`](.gitignore))_
 - [**`.env.example`**](.env.example): A template for required environment variables.
-  _Should not be committed to version control; add to `.gitignore`._
-
 - [**`.gitattributes`**](.gitattributes): Defines file handling attributes for Git, such as line endings normalization, diff settings, and linguist overrides. Helps maintain cross-platform consistency and proper file treatment in the repository.
 - [**`.gitconfig`**](.gitconfig): Repository-specific Git configuration, such as preferred merge/diff tools and commit templates. Allows customizing Git behavior for this project.
 - [**`.gitignore`**](.gitignore): Specifies intentionally untracked files to ignore, such as dependencies, build outputs, environment files, and OS/IDE artifacts. Keeps the repository clean and focused on source files.
 - [**`.fs-info`**](.fs-info): Describes the purpose and typical contents of the project root folder. Each major folder in the template includes a `.fs-info` file to document its intended role and usage.
-
-  _Update checklist and sections as needed._
 
 #### Standard Repository Folders
 
