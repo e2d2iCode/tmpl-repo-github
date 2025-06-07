@@ -71,6 +71,35 @@ The step below finalizes the release's changelog. It should be the last commit o
     [   ]  MODIFY the comparison settings from `...HEAD` to `<to-that>...<this>`
 -->
 
+## [Unreleased](https://github.com/<username>/<repository>/compare/...HEAD)
+
+### Added
+
+- Moved project's `CHANGELOG` to [`docs/CHANGELOG.md`](docs/CHANGELOG.md)
+- A new root-level [`CHANGELOG`](CHANGELOG.md) that is ready to use for the project using the present template.
+
+### Changed
+
+- ...
+
+### Deprecated
+
+- ...
+
+### Removed
+
+- ...
+
+### Fixed
+
+- ...
+
+### Security
+
+- ...
+
+---
+
 ## [v1.0.1](https://github.com/e2d2iCode/tmpl-repo-github/compare/v1.0.0...v1.0.1) - 2025-06-07
 
 ### Fixed
